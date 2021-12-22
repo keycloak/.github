@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a non-security sensitive bug in Keycloak
+description: Report a non-security sensitive bug in Keycloak. Please make sure you have tried the latest release first.
 labels: ["kind/bug", "status/triage"]
 body:
   - type: textarea
