@@ -6,18 +6,25 @@ vulnerabilities, as well as suggestions around hardening the software and our pr
 
 ## Reporting a suspected vulnerability
 
-It is important that suspected vulnerabilities are disclosed in a responsible way, and are not publicly disclosed until
-after they have been analysed and a fix is available.
+It is important that suspected vulnerabilities be disclosed responsibly, and are not publicly disclosed until after they have been analyzed and a fix is available.
 
-To report a security vulnerability, send an email to keycloak-security@googlegroups.com.
+To report a security vulnerability, please create a [new GitHub advisory](https://github.com/keycloak-poc/keycloak/security/advisories/new.), or if you don't have a GitHub account, you can email the Keycloak team at [keycloak-security@googlegroups.com.](mailto:keycloak-security@googlegroups.com.) Please make sure to include the steps to reproduce the vulnerability, the affected version, and any additional files necessary.
 
-If you would like to work with us on a fix for the security vulnerability, please include your GitHub username
-in the above email, and we will provide you access to a temporary private fork where we can collaborate on a fix 
-without it being disclosed publicly.
+When creating an advisory, you should have access to the temporary private fork, so we can collaborate on a fix without publicly disclosing the issue.
 
-Do *not* open a public issue, send a pull request, or disclose any information about the suspected vulnerability publicly.
-If you discover any publicly disclosed security vulnerabilities, please notify us *immediately* through 
-keycloak-security@googlegroups.com.
+Do not open a public issue, send a pull request, or disclose any information about the suspected vulnerability publicly. If you discover any security vulnerabilities, please notify us immediately through [keycloak-security@googlegroups.com](mailto:keycloak-security@googlegroups.com).
+
+## Public CVEs
+
+For publicly known CVEs from third-party dependencies, we use [Trivy](https://github.com/aquasecurity/trivy) and [Snyk](https://snyk.io/). Trivy is a vulnerability scanning tool that checks container images, and Snyk keeps track of our project's dependencies.
+
+We review the reports coming from Trivy and Snyk daily, below you can find the list of issues:
+
+-   [Open Issues](https://github.com/keycloak/keycloak/issues?q=is%3Aissue+sort%3Aupdated-desc+label%3Akind%2Fcve+is%3Aopen)
+-   [New fixes](https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Akind%2Fcve)
+-   [Closed issues](https://github.com/keycloak/keycloak/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed+label%3Akind%2Fcve)
+
+Although we appreciate receiving reports from the community, it is not necessary to send scanner reports for public known CVEs to the keycloak-security mailing list. Instead, please create [a new GitHub issue](https://github.com/keycloak/keycloak/issues/new?assignees=&labels=kind%2Fbug%2Cstatus%2Ftriage&template=bug.yml) on GitHub.
 
 ## Supported Versions
 
