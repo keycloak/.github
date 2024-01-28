@@ -21,5 +21,5 @@ for lower severity vulnerabilities or hardening in the following `major.minor` r
 `https://www.keycloak.org/downloads` to find the latest release.
 
 If you are unable to regularly upgrade Keycloak we encourage you to consider 
-[Red Hat Buld of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak/), which offers 
+[Red Hat Build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak/), which offers 
 [long term support](https://access.redhat.com/support/policy/updates/jboss_notes#p_rhbk) of specific versions of Keycloak.
