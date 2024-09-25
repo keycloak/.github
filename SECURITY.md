@@ -2,7 +2,7 @@
 
 The Keycloak team takes security very seriously, and aim to resolve issues as quickly as possible. Building secure
 software is a continuous process, and can always be improved. As such we welcome reports on potential security 
-vulnerabilities, as well as suggestions around hardening the software and our process.
+vulnerabilities, as well as suggestions around hardening the software and our process as described in our [security charter](SECURITY_CHARTER.md).
 
 ## Reporting a suspected vulnerability
 
