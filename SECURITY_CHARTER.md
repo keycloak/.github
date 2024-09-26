@@ -70,11 +70,12 @@ Dynamic teams formed by individuals actively involved in triaging or resolving o
 ## Process Overview
 
 1. A new vulnerability is reported to the Keycloak security mailing list.  
-2. A CVE ID is assigned.  
-3. The Response Team identifies the responsible group (e.g., Team A with members Noah and Emma).  
-4. Team A submits the fix to the private repository and includes domain experts for review.  
-5. Team A informs QE and releases coordinators about the forthcoming patch.  
-6. The pull request is merged, and a new release is issued along with official advisories.
+2. The vulnerability report is triaged.
+3. A CVE ID is assigned.  
+4. The Response Team identifies the responsible group (e.g., Team A with members Noah and Emma).  
+5. Team A submits the fix to the private repository and includes domain experts for review.  
+6. Team A informs QE and releases coordinators about the forthcoming patch.  
+7. The pull request is merged, and a new release is issued along with official advisories.
 
 In the absence of CVEs to fix, all team members will have their access revoked to security sensitive channels except for the Keycloak Security Response Team. 
 

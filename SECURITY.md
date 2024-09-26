@@ -14,8 +14,8 @@ This policy supports our open approach and is intended to give security research
 * Access and visibility to research and all CVE related data will follow the principle of least privilege by all vendors involved.  
 * Establish and set a reasonable amount of time to resolve the issue before a vulnerability is disclosed publicly; agree and coordinate on public disclosure dates when possible.   
 * Public disclosure should be prioritized on the need to keep company, government, and individual data confidential and the general public safe.  
-* All vendors will honor disclosure/embargo requests in good faith as long as all guidelines are met  
-* NDA signatures are not required  
+* All vendors will honor disclosure/embargo requests in good faith as long as all guidelines are met.
+* NDA signatures are not required.
 * Vendors involved in coordinated disclosure will remain actively involved.
 
 Violation of these guidelines may result in the individual, or vendor, being added to a denied coordination list.
